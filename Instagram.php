@@ -1,6 +1,6 @@
 <?php
 
-require_once('vendors/httpful/bootstrap.php')
+require_once('vendors/httpful/bootstrap.php');
 
 /**
 * Class: Instagram Feed Class
@@ -15,8 +15,8 @@ class Instagram
     public static function binds()
     {
 
-        add_action('admin_menu', array(Instagram, 'menu'));
-        add_action( 'admin_init', array(Instagram, 'register_settings'));
+        add_action( 'admin_menu', array(Instagram, 'menu') );
+        add_action( 'admin_init', array(Instagram, 'register_settings') );
 
     }
 
@@ -109,6 +109,8 @@ class Instagram
     }
 }
 
-// Egermano!!!
+add_action('init', 'initialize_instagram');
 
-Instagram::binds();
+function initialize_instagram(){
+    Instagram::binds();
+}
