@@ -7,14 +7,14 @@ Plugin to get instagram media feed of some user for a custom wordpress themes.
 
 * [httpful](https://github.com/nategood/httpful), already on submodules
 
-# Install 
+## Install 
 
 * Clone the repository
 * Update Submodules
     $ git submodule init
     $ git submodule update
 
-# Usage
+## Usage
     
 In ''''function.php'''' file of your theme load the Instagram file, like this:
     require_once('Instagram.php');
@@ -24,7 +24,7 @@ To get a Instagram feed call this function:
 
 The first argument is a userid of user you want to get a photos and videos, the second is optional, is a limit of media quantity you want to call, the default is 16.
 
-# References
+## References
 
 * [Httpful Documentation](http://phphttpclient.com/)
 * [Instagram API Documentation](http://instagram.com/developer/)
