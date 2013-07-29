@@ -20,11 +20,15 @@ Install
 Usage
 -------------
     
-In ''''function.php'''' file of your theme load the Instagram file, like this:
-    require_once('Instagram.php');
+In ```function.php``` file of your theme load the Instagram file, like this:
+```PHP
+require_once('Instagram.php');
+```
 
 To get a Instagram feed call this function:
-    Instagram::get_feed('999999', 16);
+```PHP 
+Instagram::get_feed('999999', 16);
+```
 
 The first argument is a userid of user you want to get a photos and videos, the second is optional, is a limit of media quantity you want to call, the default is 16.
 
