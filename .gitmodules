@@ -1,0 +1,3 @@
+[submodule "vendors/httpful"]
+	path = vendors/httpful
+	url = https://github.com/nategood/httpful.git
