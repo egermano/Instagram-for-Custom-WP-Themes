@@ -1,6 +1,8 @@
 Instagram for Custom WP Themes
 ==============================
 
+[![Build Status](https://secure.travis-ci.org/egermano/Instagram-for-Custom-WP-Themes.png?branch=master)](http://travis-ci.org/egermano/Instagram-for-Custom-WP-Themes)
+
 Plugin to get instagram media feed of some user for a custom wordpress themes.
 
 # Dependencies
