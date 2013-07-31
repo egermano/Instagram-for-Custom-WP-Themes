@@ -43,4 +43,7 @@ Fork me
 
 I have a lot things to do in this plugins, this is a initial beta version, if you want to use and increase this class, fork me and let's do the better world.
 
+
+See more in: [http://blog.egermano.com/blog/2013/07/30/instagram-wp-plugin/](http://blog.egermano.com/blog/2013/07/30/instagram-wp-plugin/)
+
 Thanks.
