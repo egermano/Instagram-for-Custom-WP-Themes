@@ -54,7 +54,7 @@ class Instagram
         if (get_option('instagram-clientid') && get_option('instagram-secret')) {
             $token_url = 'https://api.instagram.com/oauth/authorize/'.
                         '?client_id='.get_option('instagram-clientid').
-                        '&redirect_uri=http://dev.wp.com/wp-admin/options-general.php?page=instagram'.
+                        '&redirect_uri='."http://".$HTTP_HOST.$REQUEST_URI.empty($_SERVER['QUERY_STRING'])?'':'?'.$_SERVER['QUERY_STRING'].
                         '&response_type=token';
         }
 
