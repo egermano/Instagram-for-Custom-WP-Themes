@@ -1,5 +1,16 @@
 <?php
 
+/**
+ * Plugin Name: Instagram for Developers
+ * Plugin URI: http://egermano.com
+ * Description: Instagram feed for developers
+ * Version: 1.0
+ * Author: eGermano.
+ * Author URI: http://blog.egermano.com/
+ * Logo Location: http://egermano.com/
+ * Logo Link: http://egermano.com/
+ */
+
 require_once('vendors/httpful/bootstrap.php');
 
 /**
