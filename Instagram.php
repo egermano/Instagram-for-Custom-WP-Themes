@@ -63,10 +63,9 @@ class Instagram
         $token_url = '#nope';
 
         if (get_option('instagram-clientid') && get_option('instagram-secret')) {
-            $token_url = 'https://api.instagram.com/oauth/authorize/'.
-                        '?client_id='.get_option('instagram-clientid').
-                        '&redirect_uri='."http://".$HTTP_HOST.$REQUEST_URI.empty($_SERVER['QUERY_STRING'])?'':'?'.$_SERVER['QUERY_STRING'].
-                        '&response_type=token';
+            $token_url = 'https://api.instagram.com/oauth/authorize/?client_id='.get_option('instagram-clientid');
+            $token_url .= '&redirect_uri=http://'.$HTTP_HOST.$REQUEST_URI.empty($_SERVER['QUERY_STRING'])?'':'?'.$_SERVER['QUERY_STRING'];
+            $token_url .= '&response_type=token';
         }
 
         $access_token = '';
